@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Cruises>
+    <Cruise>
+        <name>Carnival Cruise</name>
+        <parent_company>Carnival Corporation</parent_company>
+        <reservation>
+            <url>http://www.carnival.com/</url>
+            <phone>1-800-CARNIVAL</phone>
+        </reservation>
+        <headquarter zip="33178" city="Miami" state="Florida" />
+        <departure_ports>
+            <port>Los Angeles</port>
+        </departure_ports>
+    </Cruise>
+    <Cruise>
+        <name>Royal Caribbean International</name>
+        <parent_company>Royal Caribbean Group</parent_company>
+        <reservation>
+            <url>https://www.royalcaribbean.com/</url>
+            <phone>1-800-256-6649</phone>
+        </reservation>
+        <headquarter zip="33132" city="Miami" state="Florida" />
+        <departure_ports>
+            <port>Los Angeles</port>
+            <port>Fort Lauderdale</port>
+            <port>Miami</port>
+            <port>Boston</port>
+        </departure_ports>
+        <founded_in>1968</founded_in>
+    </Cruise>
+    <Cruise>
+        <name>Norwegian Cruise Line</name>
+        <parent_company>Norwegian Cruise Line Holdings</parent_company>
+        <reservation>
+            <url>https://www.ncl.com/</url>
+            <phone>1-866-234-7350</phone>
+        </reservation>
+        <headquarter zip="33126" city="Miami" state="Florida" />
+        <departure_ports>
+            <port>Seattle</port>
+            <port>Barcelona</port>
+            <port>Rome</port>
+            <port>London</port>
+        </departure_ports>
+		<founded_in>1966</founded_in>
+    </Cruise>
+    <Cruise>
+        <name>Disney Cruise Line</name>
+        <parent_company>The Walt Disney Company</parent_company>
+        <reservation>
+            <url>https://disneycruise.disney.go.com/</url>
+            <phone>1-800-951-3532</phone>
+        </reservation>
+        <headquarter zip="34747" city="Celebration" state="Florida" />
+        <departure_ports>
+            <port>Sydney</port>
+            <port>Melbourne</port>
+            <port>Ensenada</port>
+            <port>Brisbane</port>
+        </departure_ports>
+		<founded_in>1995</founded_in>
+    </Cruise>
+    <Cruise>
+        <name>Viking Ocean Cruises</name>
+        <parent_company>Viking Cruises Ltd.</parent_company>
+        <reservation>
+            <url>https://www.vikingcruises.com/oceans</url>
+            <phone>1-866-984-5464</phone>
+        </reservation>
+        <headquarter zip="91367" city="Los Angeles" state="California" />
+        <departure_ports>
+            <port>Barcelona</port>
+            <port>Rome</port>
+            <port>Istanbul</port>
+        </departure_ports>
+    </Cruise>
+	<Cruise>
+		<name>Princess Cruises</name>
+		<parent_company>Carnival Corporation</parent_company>
+		<reservation>
+			<url>https://www.princess.com/</url>
+			<phone>1-800-774-6237</phone>
+		</reservation>
+		<headquarter zip="91355" city="Santa Clarita" state="California" />
+		<departure_ports>
+			<port>Sydney</port>
+			<port>Melbourne</port>
+			<port>Adelaide</port>
+		</departure_ports>
+	</Cruise>
+	<Cruise>
+		<name>Cunard Line</name>
+		<parent_company>Cunard Steamship Company, Ltd</parent_company>
+		<reservation>
+			<url>https://www.cunard.com/en-us</url>
+			<phone>1-800-728-6273</phone>
+		</reservation>
+		<headquarter zip="SO15" city="Southampton" state="Hampshire" />
+		<departure_ports>
+			<port>New York</port>
+			<port>Fort Lauderdale</port>
+		</departure_ports>
+	</Cruise>
+	<Cruise>
+		<name>Holland America Line</name>
+		<parent_company>Carnival Corporation</parent_company>
+		<reservation>
+			<url>https://www.hollandamerica.com/en_US.html</url>
+			<phone>1-855-932-1711</phone>
+		</reservation>
+		<headquarter zip="98119" city="Seattle" state="Washington" />
+		<departure_ports>
+			<port>Seattle</port>
+			<port>Vancouver</port>
+		</departure_ports>
+	</Cruise>
+	<Cruise>
+		<name>Celebrity Cruises</name>
+		<parent_company>Royal Caribbean Group</parent_company>
+		<reservation>
+			<url>https://www.royalcaribbean.com/</url>
+			<phone>1-800-256-6649</phone>
+		</reservation>
+		<headquarter zip="33132" city="Miami" state="Florida" />
+		<departure_ports>
+			<port>Los Angeles</port>
+			<port>Fort Lauderdale</port>
+		</departure_ports>
+		<founded_in>1968</founded_in>
+	</Cruise>
+	<Cruise>
+		<name>Virgin Voyages</name>
+		<parent_company>Virgin Group</parent_company>
+		<reservation>
+			<url>https://www.virginvoyages.com/</url>
+			<phone>1-954-488-2955</phone>
+		</reservation>
+		<headquarter zip="33324" city="Plantation" state="Florida" />
+		<departure_ports>
+			<port>Miami</port>
+			<port>Barcelona</port>
+			<port>Piraeus</port>
+		</departure_ports>
+		<founded_in>2014</founded_in>
+	</Cruise>
+</Cruises>

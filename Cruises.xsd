@@ -1,0 +1,43 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Cruises">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Cruise" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="parent_company" type="xs:string"/>
+                            <xs:element name="reservation">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="url" type="xs:string"/>
+                                        <xs:element name="phone" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="headquarter" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="zip" type="xs:string" use="required"/>
+                                            <xs:attribute name="city" type="xs:string"/>
+                                            <xs:attribute name="state" type="xs:string"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="departure_ports">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="port" type="xs:string" minOccurs="2" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="founded_in" type="xs:string" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
